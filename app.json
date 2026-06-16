@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Launch: Financial Reality",
+    "slug": "launch-financial-reality",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/LAUNCH - Printed Materials - Stickers (1).png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/LAUNCH - Printed Materials - Stickers (1).png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.placeholder.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/LAUNCH - Printed Materials - Stickers (1).png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.placeholder.app"
+    },
+    "web": {
+      "favicon": "./assets/images/final_quest_240x240.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      "expo-web-browser",
+      "expo-secure-store"
+    ],
+    "scheme": "launchfinancialreality",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "backendUrl": "https://q5accyvjh8mpqzjskynx9bz5vj5xytfv.app.specular.dev"
+    }
+  }
+}
